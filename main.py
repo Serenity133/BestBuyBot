@@ -22,7 +22,7 @@ from selenium.webdriver.common.keys import Keys
 opt = webdriver.ChromeOptions()
 # Configurations for selenium driver
 opt.add_experimental_option("excludeSwitches", ["enable-automation"])
-opt.add_argument("--profile-directory=Person 4")
+opt.add_argument("--profile-directory=Person 1")
 opt.add_experimental_option('useAutomationExtension', False)
 opt.add_argument("disable-popup-blocking")
 driver = webdriver.Chrome(options=opt)
@@ -36,7 +36,7 @@ stealth(driver,
         fix_hairline=True,
         )
 
-driver.get("https://www.bestbuy.com/site/logitech-c920s-pro-1080p-webcam-with-privacy-shutter-black/6321794.p?skuId=6321794")
+driver.get("https://www.bestbuy.com/site/pokemon-trading-card-game-blooming-waters-premium-collection/6609201.p?skuId=6609201")
 foundButton = False
 time.sleep(5)
 
